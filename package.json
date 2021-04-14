@@ -1,0 +1,24 @@
+{
+  "name": "projetobot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node ./src/telegramBot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^3.6.6",
+    "node-emoji": "^1.10.0",
+    "node-telegram-bot-api": "^0.52.0",
+    "puppeteer": "^8.0.0",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node-emoji": "^1.8.1",
+    "@types/node-telegram-bot-api": "^0.51.1",
+    "nodemon": "^2.0.7"
+  }
+}
